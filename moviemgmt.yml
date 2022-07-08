@@ -40,7 +40,7 @@ spec: #inside your deployment we need to provide spec how this deployment api wi
                     name: mydbsecret #this is the name of the secret
                     key: dbpassword
                     
--------
+---
 apiVersion: v1                # API version
 kind: Service                 # Type of the kubernetes resource
 metadata:                     
